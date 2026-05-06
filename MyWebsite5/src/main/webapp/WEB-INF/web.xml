@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>com.akhilesh.basic.MyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/MyServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowRecordsServlet</servlet-name>
+        <servlet-class>com.akhilesh.basic.ShowRecordsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowRecordsServlet</servlet-name>
+        <url-pattern>/ShowRecords</url-pattern>
+    </servlet-mapping>
+</web-app>
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>com.akhilesh.basic.MyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/MyServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
